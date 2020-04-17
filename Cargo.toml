@@ -1,0 +1,27 @@
+[package]
+name = "neon"
+version = "0.1.0"
+authors = ["Braydn Moore <braydnmoore3@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder="*"
+sha1 = "*"
+base64 = "*"
+percent-encoding="*"
+clokwerk = "*"
+rand = "*"
+minreq = { version = "*", features = ["https"]}
+colored = "*"
+bit-vec="*"
+crossbeam-channel="*"
+crossbeam-queue = "*"
+md5 = "*"
+stopwatch = "0.0.7"
+dns-lookup="*"
+urlparse="*"
+
+[dependencies.bencode]
+git = "https://github.com/arjantop/rust-bencode.git"
